@@ -44,7 +44,6 @@
     "test": "jest",
     "start": "tsc && node dist/index.js",
     "commit": "cz",
-    "generate:changelog": "node scripts/generate-changelog.js",
     "release": "standard-version"
   },
   "gitHooks": {
