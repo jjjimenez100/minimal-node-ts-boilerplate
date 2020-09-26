@@ -1,3 +1,4 @@
 test/*.test.ts
 test/*.spec.ts
 test/
+scripts/
