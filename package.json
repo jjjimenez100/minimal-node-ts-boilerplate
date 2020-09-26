@@ -1,6 +1,6 @@
 {
   "name": "minimal-node-ts-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Minimal configuration for node ts including eslint and prettier",
   "main": "index.js",
   "dependencies": {
@@ -28,6 +28,7 @@
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "sinon": "^8.1.1",
+    "standard-version": "^9.0.0",
     "ts-jest": "^25.0.0",
     "typescript": "^3.7.5",
     "typescript-eslint-parser": "^22.0.0"
@@ -43,7 +44,8 @@
     "test": "jest",
     "start": "tsc && node dist/index.js",
     "commit": "cz",
-    "generate:changelog": "node scripts/generate-changelog.js"
+    "generate:changelog": "node scripts/generate-changelog.js",
+    "release": "standard-version"
   },
   "gitHooks": {
     "commit-msg": "node scripts/check-commit-message.js"
