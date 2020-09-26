@@ -1,6 +1,6 @@
 {
   "name": "minimal-node-ts-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal configuration for node ts including eslint and prettier",
   "main": "index.js",
   "dependencies": {
