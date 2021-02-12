@@ -52,7 +52,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch & node dist",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts",
     "test": "jest",
     "start": "nodemon index.ts",
     "commit": "cz",
